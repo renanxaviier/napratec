@@ -497,7 +497,14 @@ strong {
   border-radius: 20px;
   margin-bottom: 24px;
   padding: 40px;
-  text-align: justify;
+  text-align: left;
+}
+
+.isos-img {
+  display: block;
+  margin: auto; 
+  width: 450px;
+  min-width: 400px;
 }
 
 
@@ -517,9 +524,13 @@ strong {
   color: var(--p-color);
   display: block;
   text-align: left;
+  justify-content: Center;
+  align-items: center;
 }
 
 .nav-tabs .nav-link {
+  width: 400px; /* Defina a largura desejada */
+  height: 150px; /* Defina a altura desejada */
   border-radius: 0;
   border: 0;
   border-left: 7px solid var(--p-color);
@@ -544,6 +555,15 @@ strong {
 .nav-tabs .nav-link:hover h3 {
   color: var(--primary-color);
 }
+
+#nav-video ul {
+  list-style-type: disc; /* Muda o estilo da marcação */
+}
+
+#nav-video li {
+  margin-bottom: 10px; /* Adiciona espaço entre os itens */
+}
+
 
 
 /*---------------------------------------
@@ -613,13 +633,13 @@ strong {
 
 .projects-btn-wrap {
   position: absolute;
-  bottom: 25px;
-  right: 25px;
+  bottom: 15px;
+  right: 15px;
 }
 
 .projects-btn-wrap .custom-btn {
-  font-size: 30px;
-  padding: 7.5px 15px;
+  font-size: 20px;
+  padding: 2.5px 7.5px;
 }
 
 
