@@ -576,6 +576,7 @@ strong {
   margin-bottom: 24px;
   transition: all 0.3s;
   cursor: pointer;
+  text-align: center;
 }
 
 .projects-thumb-large {
@@ -638,8 +639,9 @@ strong {
 }
 
 .projects-btn-wrap .custom-btn {
-  font-size: 20px;
-  padding: 2.5px 7.5px;
+  font-size: 15px;
+  text-align: center;
+  padding: 1.5px 8px;
 }
 
 
@@ -933,3 +935,54 @@ strong {
   height: 100%;
 }
 
+.contact-form {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2F5091;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #2F5091;
